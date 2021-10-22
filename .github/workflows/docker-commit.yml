@@ -37,4 +37,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
+          context: .
           tags: quay.io/kamaradcoal/minecraft-bungee:${{ github.sha }}
