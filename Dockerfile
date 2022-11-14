@@ -1,4 +1,4 @@
-FROM alpine:3.14.2
+FROM alpine:3.16.3
 
 # Specifying Java envs.
 ENV JAVA_VERSION_MAJOR=8
